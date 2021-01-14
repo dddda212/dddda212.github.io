@@ -6,10 +6,34 @@
     <description>Recent content on Neal Universe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Apr 2020 11:52:07 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jan 2021 16:17:00 +0800</lastBuildDate><atom:link href="https://dddda212.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eth开发阶段</title>
+      <link>https://dddda212.github.io/post/2021-01/eth-timeline/</link>
+      <pubDate>Wed, 13 Jan 2021 16:17:00 +0800</pubDate>
+      
+      <guid>https://dddda212.github.io/post/2021-01/eth-timeline/</guid>
+      <description>起源  2013年末，发布以太坊初版白皮书 2014-03 发布第三版网络测试（POC3） 2014-04 Gavin Wood 发布以太坊黄皮书，将以太坊虚拟机（EVM）规格化。 2014-06，发布(POC4) 2014-07,成立以太坊基金会，发布POC5。 2014-07-24，以太坊进行为期42天预售，共募集31,531BTC 2014-10-05， 发布POC6。区块时间从60秒减少到12秒，并使用新的机遇GHOST协议。 2014-11，以太坊在柏林举办了第一次小型开发者会议(DEVCON 0)。 2015-01，发布POC7。 2015-02，发布POC8。 2015-05，发布POC9。  Frontier(2015-07-30)   2015-07，在高度0区块上正式发布了以太坊网络最初版本Frontier。创世区块中包含了8893个交易，他们来自从2014年ETH公开发售以来参与众筹的交易地址以及以太坊基金会的地址。Frontier被开发团队定义为Beta版本，并非一个安全可靠的网络，体验和功能也很简单。主要功能如下：
+ 挖矿功能。 限制性交易功能。提供了上传和执行合约的方法，但是每个区块的gas被硬编码限制为5000，意味着在这段时间限制了以太坊上大规模开发和进行交易。之后几天，等矿工们对网络操作和使用正常之后，gas的上限被自动解除，此后以太坊网络可以按照预期处理交易和执行合约。 中心化保护措施。一个叫做Canary Contracts的金丝雀合约用来及时提醒和阻止网络中出现的错误操作或者无效交易，避免用户在无效的链上进行操作。这是一个中心化的机制，在早期的以太坊，对网络安全运行起到必要的保护作用。 体验很差的可用性。前沿阶段的以太坊网络没有图形化的操作界面，所有客户端操作只能通过命令行实现，这种粗糙的操作界面对普通用户非常不友好，所以刚开始的以太坊用户只是局限于熟悉代码的开发人员。  虽然Frontier只是一个公测版本，但它的表现超出了人们的期望，大量矿工进入网络开始挖矿并得到代币的奖励，它们提高了以太坊网络的算力，提升了抗击黑客攻击的能力。Frontier是以太坊发展史的第一个里程碑。
+  2015-11-09 伦敦举行为期5天的开发者大会（DEVCON-1）
+  Homestead（2016-03-14）   2016-03-14，发布以太坊第二阶段Homestead，以太坊第一次硬分叉，在区块高度1150000发生。这是以太坊第一个稳定版网络。这个阶段的改进主要有：
+ 取消金丝雀合约 引入Mist钱包，提供了图形界面的mist钱包客户端。    2016-06-16，DEVCON-2在上海举办。第二天发生The DAO攻击。因为智能合约漏洞导致360万ETH被盗。ETH最终获得大多数社区成员投票决定强行实施硬分叉，在区块高度1920000分叉成功。造成了ETH和ETC的分裂。
+  Metropolis 拜占庭（Byzantium）2017-10 拜占庭于2017年10月16日在4370000区块高度被激活，成功完成分叉。包含9个EIP（100、658、649、140、196、197、198、211、214）它涉及的升级主要有：
+ 调整区块难度评估的公式：规定了不能通过操纵叔块来强制增加区块高度，提高了挖矿的难度，保证了区块产生速度的稳定性。 调整挖矿奖励：挖矿收益从每个区块5个ETH降低到3个。 延迟引爆“难度炸弹”(Difficulty Bomb)：为了以太坊的共识机制顺利从POW过渡到POS， 以太坊提前于2015年9月规划了在过渡期间逐渐提高挖出新区块难度的“难度炸弹”机制。根据这个机制，在POW后期，挖矿难度将会提高到无法产生新区块，以太坊网络将会被冻结形成“冰河时期”。目的是最终淘汰POW机制，避免矿工继续在旧的POW链上作业从而产生两条独立的链，导致社区分裂。拜占庭升级将“难度炸弹”计划推迟了1年时间。  君士坦丁堡（Constantinople） 君士坦丁堡硬分叉在几经推迟之后，于2019年2月28日在区块高度达到7280000时被触发。
+君士坦丁堡升级总共包括5个改进协议，分别是 EIP 1234、EIP145、EIP 1014、EIP 1052和 EIP 1283。比较重要的内容包括：</description>
+    </item>
     
-	<atom:link href="https://dddda212.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Hugo使用帮助</title>
+      <link>https://dddda212.github.io/post/hugo-help/</link>
+      <pubDate>Wed, 13 Jan 2021 11:52:07 +0800</pubDate>
+      
+      <guid>https://dddda212.github.io/post/hugo-help/</guid>
+      <description>使用Hugo 创建博客 hugo 安装成功后，使用hugo new site 命令创建博客：
+# 博客项目的名字为myblog hugo new site myblog  这个命令会创建一个名为myblog 的目录，这就是博客的根目录。目录结构如下：
+├── archetypes │ └── default.md ├── config.toml # 博客站点的配置文件 ├── content # 博客文章所在目录 ├── data ├── layouts # 网站布局 ├── static # 一些静态内容 └── themes # 博客主题  启动博客服务 使用下面命令启动服务：
+&amp;gt;&amp;gt;&amp;gt; hugo server | EN -------------------+----- Pages | 29 Paginator pages | 0 Non-page files | 0 Static files | 1 Processed images | 0 Aliases | 12 Sitemaps | 1 Cleaned | 0 Built in 60 ms Watching for changes in /home/wp/t/myblog/{archetypes,content,data,layouts,static,themes} Watching for config changes in /home/wp/t/myblog/config.</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -21,12 +45,12 @@
     </item>
     
     <item>
-      <title>First</title>
+      <title>Hello hugo</title>
       <link>https://dddda212.github.io/post/first/</link>
       <pubDate>Sat, 11 Apr 2020 11:52:07 +0800</pubDate>
       
       <guid>https://dddda212.github.io/post/first/</guid>
-      <description>Hello Hugo  aaa bbb ccc  </description>
+      <description>Who am I???</description>
     </item>
     
   </channel>

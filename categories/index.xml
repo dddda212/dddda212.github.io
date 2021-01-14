@@ -6,9 +6,15 @@
     <description>Recent content in Categories on Neal Universe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://dddda212.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 13 Jan 2021 11:52:07 +0800</lastBuildDate><atom:link href="https://dddda212.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://dddda212.github.io/categories/hugo/</link>
+      <pubDate>Wed, 13 Jan 2021 11:52:07 +0800</pubDate>
+      
+      <guid>https://dddda212.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
